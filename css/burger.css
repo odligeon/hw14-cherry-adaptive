@@ -1,0 +1,85 @@
+.burger__menu {
+    background: linear-gradient(360deg, #292f35, #373f43);
+    width: 100%;
+    height: calc(100vh);
+    position: fixed;
+    top: -110vh;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.burger__menu.active {
+    top: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.burger__menu > nav {
+    height: 100%;
+}
+
+.burger__menu > nav > ul {
+    height: 100%;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-around;
+    font-size: 3rem;
+    display: flex;
+    padding-top: 85px;
+}
+
+.burger__menu > nav > ul > li > a {
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #a5adb8;
+    font-size: 3rem;
+}
+
+.burger__menu form.search__wrapper {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 3rem;
+}
+
+.burger__menu form.search__wrapper > input {
+    height: 4rem;
+    font-size: 3rem;
+    width: 80%;
+}
+
+.burger__menu .search__wrapper  button {
+    background: #ae4b5d;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 6px;
+    border: 0;
+    position: relative;
+}
+
+.burger__menu .search__wrapper  button:before {
+    content: '';
+    border: 2px solid white;
+    border-radius: 100%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 17px;
+    top: 15px;
+}
+
+.burger__menu .search__wrapper  button:after {
+    content: '';
+    border-right: 2px solid white;
+    display: block;
+    width: 8px;
+    height: 18px;
+    position: absolute;
+    transform: rotate(315deg);
+    left: 34px;
+    top: 34px;
+}

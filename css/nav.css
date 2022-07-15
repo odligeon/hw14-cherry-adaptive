@@ -1,0 +1,51 @@
+.navigation {
+    background: #95161f;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.navigation li:last-of-type {
+    margin-right: 20px;
+}
+
+.navigation a {
+    font-size: 1rem;
+    line-height: .875rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.breadCrumbs {
+    background: #f3f3f3;
+}
+
+.breadCrumbs ul {
+    margin-left: 24px;
+}
+
+.breadCrumbs li {
+    display: inline-block;
+}
+
+.breadCrumbs a {
+    font: normal .6975rem / 1.5rem Arial, sans-serif;
+    color: #95161f;
+    display: block;
+}
+.breadCrumbs li:not(:last-of-type) a:after {
+    content: '\0020 \/';
+    display: inline-block;
+    color: #6b6f74;
+    margin-left: 1px;
+}
+
+.breadCrumbs li:last-of-type > a{
+    color: #6b6f74;
+}

@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/burger.js"></script>
+	<title>Cherry</title>
+</head>
+<body>
+<header class="header">
+	<div class="container">
+		<div class="header__logo left">
+			<a href="#" class="largeText fl">CHERRY</a>
+			<p class="header__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+		</div>
+		<div class="search__wrapper right">
+			<form action="">
+				<input id="search" type="text" class="left" placeholder="Search...">
+				<button class="left"></button>
+				<div class="cf"></div>
+			</form>
+		</div>
+		<section class="burger right">
+			<button id="burger__button" onclick="burger()"><span></span></button>
+		</section>
+		<div class="cf"></div>
+	</div>
+</header>
+<div class="burger__menu">
+	<nav class="">
+		<ul class="">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Sliders</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Styles</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Cherry</a></li>
+			<li><a href="#">Contact</a></li>
+			<li>
+				<form action="" class="search__wrapper">
+					<input type="text" class="left" placeholder="Search...">
+					<button class="right"></button>
+					<div class="cf"></div>
+				</form>
+			</li>
+		</ul>
+	</nav>
+</div>
+<section class="slider container">
+	<img src="img/sliderImage.png" alt="Slider Image">
+	<h1 class="largeText fl">Eaten berry</h1>
+	<p class="dark">and go for a walk</p>
+	<p class="middle">Today good weather...</p>
+	<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+</section>
+<section class="navigation container">
+	<nav class="right">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Sliders</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Styles</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Cherry</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<div class="cf"></div>
+</section>
+<div class="breadCrumbs container">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Another Page</a></li>
+		<li><a role="link" aria-disabled="true">This Page</a></li>
+	</ul>
+</div>
+<main class="container">
+	<aside class="left">
+		<form action="">
+			<header>Contact Us</header>
+			<input type="text" id="name" placeholder="Your Name">
+			<label for="name"></label>
+			<input type="text" id="daytime" placeholder="Daytime Number">
+			<label for="daytime"></label>
+			<input type="text" id="email" placeholder="Email Address">
+			<label for="email"></label>
+			<input type="text" id="city" placeholder="City">
+			<label for="city"></label>
+			<div class="select__wrapper">
+				<select name="problem" class="problem">
+					<option value="Problem With">Problem With</option>
+				</select>
+			</div>
+			<div class="select__wrapper">
+				<select name="brand" class="brand">
+					<option value="Brand">Brand</option>
+				</select>
+			</div>
+			<button>Lorem ipsum dolor</button>
+		</form>
+		<div class="headline">
+			<header>Headline</header>
+			<p>Lorem ipsum dolor sit amet,
+				consectetur adipisicing elit, sed do
+				eiusmod tempor incididunt ut labore et
+				dolore magna aliqua. Ut enim ad
+				minim veniam, quis nostrud
+				exercitation ullamco laboris nisi ut
+				aliquip ex ea commodo </p>
+			<a href="#">More about</a>
+		</div>
+	</aside>
+	<section class="main__section right">
+		<h2 class="fl">What We Do...</h2>
+		<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+			dolore
+			magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+			commodo
+			consequat. Duis aute irure dolor in <a href="#">reprehenderit in voluptate velit esse</a> cillum dolore
+			eu fugiat
+			nulla
+			pariatur.
+			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+			laborum.
+		</article>
+		<section class="images">
+			<div class="admin">
+				<header>Admin panel</header>
+				<img src="img/adminPanel3.png" alt="Admin panel image">
+			</div>
+			<div class="shortcodes">
+				<header>Shortcodes</header>
+				<img src="img/shortcodes.png" alt="Shortcodes image">
+			</div>
+			<div class="videos">
+				<header>Videos</header>
+				<img src="img/videos.png" alt="Videos image">
+			</div>
+		</section>
+		<h2 class="fl">Lists</h2>
+		<div class="list left">
+			<p>List style type circle <code>&#60;ul&#62;</code></p>
+			<ul>
+				<li>Lorem ipsum dolor sit amet</li>
+				<li>Consectetur adipiscing elit</li>
+				<li>Facilisis in pretium nisl aliquet</li>
+				<li>Nulla volutpat aliquam velit
+					<ul>
+						<li>Phasellus iaculis neque</li>
+						<li>Purus sodales ultricies</li>
+						<li>Vestibulum laoreet porttitor</li>
+					</ul>
+				</li>
+				<li>Faucibus porta lacus fringilla vel</li>
+				<li>Aenean sit amet erat nunc</li>
+			</ul>
+		</div>
+		<div class="list left">
+			<p>Unstyled <code>&#60;ul classs=”unstyled”&#62;</code></p>
+			<ul>
+				<li>Lorem ipsum dolor sit amet</li>
+				<li>Consectetur adipiscing elit</li>
+				<li>Facilisis in pretium nisl aliquet</li>
+				<li>Nulla volutpat aliquam velit
+					<ul>
+						<li>Phasellus iaculis neque</li>
+						<li>Purus sodales ultricies</li>
+						<li>Vestibulum laoreet porttitor</li>
+					</ul>
+				</li>
+				<li>Faucibus porta lacus fringilla vel</li>
+				<li>Aenean sit amet erat nunc</li>
+			</ul>
+		</div>
+		<div class="list left">
+			<p>Ordered <code>&#60;ol&#62;</code></p>
+			<ol>
+				<li>Lorem ipsum dolor sit amet</li>
+				<li>Consectetur adipiscing elit</li>
+				<li>Facilisis in pretium nisl aliquet</li>
+				<li>Nulla volutpat aliquam velit
+				<li>Faucibus porta lacus fringilla vel</li>
+				<li>Aenean sit amet erat nunc</li>
+			</ol>
+		</div>
+		<div class="cf"></div>
+		<h2 class="table__name fl">Table</h2>
+		<table>
+			<thead>
+			<tr>
+				<th class="tcol1">№</th>
+				<th class="tcol2">Toranton rate</th>
+				<th class="tcol3">Puranocak var berond</th>
+				<th class="tcol4">Intime modular to cavan</th>
+				<th class="tcol5">Language</th>
+			</tr>
+			<tr>
+				<td class="tac">1</td>
+				<td>Lorem ipsum</td>
+				<td>Consectetur adipiscing elit</td>
+				<td>Consectetur adipiscing</td>
+				<td><a href="#">Lorem ipsum</a></td>
+			</tr>
+			<tr>
+				<td class="tac">2</td>
+				<td>Modul caram</td>
+				<td>Remation vore undocost</td>
+				<td>Remation vore undocost</td>
+				<td><a href="#">Modul caram</a></td>
+			</tr>
+			<tr>
+				<td class="tac">3</td>
+				<td>Victorian mor</td>
+				<td>Untable via costario more</td>
+				<td>Untable via costario more</td>
+				<td><a href="#">Victorian mor</a></td>
+			</tr>
+			<tr>
+				<td class="tac">4</td>
+				<td>Jacon van dor</td>
+				<td>Executive live anothre vy</td>
+				<td>Executive live anothre</td>
+				<td><a href="#">Jacon van dor</a></td>
+			</tr>
+			<tr>
+				<td class="tac">5</td>
+				<td>Inpuction mian</td>
+				<td>Nastiro macon puratece</td>
+				<td>Nastiro macon puratece</td>
+				<td><a href="#">Inpuction mian</a></td>
+			</tr>
+			<tr>
+				<td class="tac">6</td>
+				<td>Povatior naron</td>
+				<td>Gover nate foracent pore</td>
+				<td>Gover nate foracent</td>
+				<td><a href="#">Povatior naron</a></td>
+			</tr>
+			<tr>
+				<td class="tac">7</td>
+				<td>Inbug for cars</td>
+				<td>Overview cal the montre</td>
+				<td>Overview cal the montre</td>
+				<td><a href="#">Inbug for cars</a></td>
+			</tr>
+			</thead>
+		</table>
+	</section>
+	<div class="cf"></div>
+</main>
+<footer>
+	<div class="container">
+		<section class="schedule left">
+			<h3 class="fl">CHERRY Hours</h3>
+			<hr class="line1">
+			<hr class="line2">
+			<p class="text">We are open 24/7</p>
+			<div class="text__wrapper">
+				<p class="text">Nights! Absolutely No Extra Charge</p>
+				<p class="text">Weekends! Absolutely No Extra Charge</p>
+				<p class="text">Holidays! Absolutely No Extra Charge</p>
+			</div>
+		</section>
+		<section class="local left">
+			<h3>Local <span class="fl">CHERRY</span></h3>
+			<hr class="line1">
+			<hr class="line2">
+			<div class="text__wrapper">
+				<ul>
+					<li>
+						<p class="text">West Hollywood (323) 221-1107</p>
+					</li>
+					<li>
+						<p class="text">Beverly Hills (310) 202-5428</p>
+					</li>
+					<li>
+						<p class="text">Pasadena (626) 296-2664</p>
+					</li>
+					<li>
+						<p class="text">West Hills (805) 531-5083</p>
+					</li>
+					<li>
+						<p class="text">Los Angeles (213) 389-4381</p>
+					</li>
+				</ul>
+			</div>
+			<a href="tel:1-800-287-0919" class="phone">Call Us Toll Free 1-800-287-0919</a>
+		</section>
+		<section class="LA left">
+			<h3>Our Los Angeles Location</h3>
+			<hr class="line1">
+			<hr class="line2">
+			<address>
+				<p class="text">Steve Smith</p>
+				<p class="text">Hi-Tech Cherry Company</p>
+				<a href="mailto:info@cherrycompany.com" class="text">info@cherrycompany.com</a>
+				<p class="text">5104 W. Washington Blvd</p>
+				<p class="text">Los Angeles , CA , 90016 United States</p>
+				<p class="text">(800) 287-0919</p>
+			</address>
+		</section>
+		<div class="cf"></div>
+	</div>
+</footer>
+</body>
+</html>

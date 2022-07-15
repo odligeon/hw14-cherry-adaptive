@@ -1,0 +1,97 @@
+footer {
+    width: 100%;
+    background: #252e35;
+    border-top: 8px solid #ae4b5d;
+    padding-bottom: 28px;
+}
+
+.schedule {
+    width: 270px;
+    margin: 30px 80px 0 10px;
+}
+
+h3  {
+    color: #a5adb8;
+    font: normal 1.125rem / 1.125rem Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.line1 {
+    background: #191c20;
+    border: none;
+    height: 1px;
+    font-size: 0;
+}
+
+.line2 {
+    background: #40474f;
+    border: none;
+    height: 1px;
+    font-size: 0;
+}
+
+footer .text {
+    margin: 9px 0;
+    font: normal 0.75rem / 0.75rem Arial, sans-serif;
+    color: #85898f;
+}
+
+.text__wrapper {
+    padding-left: 6px;
+}
+
+.text__wrapper > p.text:before {
+    content: '';
+    display: inline-block;
+    background: url('../img/clock.png');
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    position: relative;
+    top: 3px;
+}
+
+.local {
+    width: 270px;
+    margin: 30px 70px 0 0;
+}
+
+.local .text__wrapper {
+    padding-left: 2px;
+}
+
+span.fl {
+    display: inline-block;
+}
+
+.local .text {
+    margin: 12px 0;
+}
+
+.local ul p:before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #9c4757;
+    margin-right: 12px;
+}
+
+.phone {
+    color: #a5adb8;
+    font: bold .875rem / .875rem Arial, sans-serif;
+    text-decoration: none;
+}
+
+.LA {
+    margin: 30px 0 0 2px;
+}
+
+address {
+    margin-left: 4px;
+}
+
+address a{
+    color: #d08b98 !important;
+}
