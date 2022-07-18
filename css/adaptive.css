@@ -77,6 +77,10 @@
 }
 
 @media (max-width: 414px) {
+    h2 {
+        text-align: center;
+    }
+
     section.main__section {
         padding: 12px 10px 0;
     }
@@ -105,6 +109,92 @@
         gap: 1rem;
     }
 
+    .images > div {
+        width: 100%;
+    }
+
+    .images > div > header {
+        text-align: center;
+    }
+
+    .images > div > img {
+        width: 100%;
+    }
+
+    .main__section > .list.left {
+        margin: 0 auto 2rem;
+        width: fit-content;
+        display: block;
+        float: none;
+        max-width: 100%;
+    }
+
+    main > aside > form {
+        max-width: 100%;
+    }
+
+    main > aside > form > header {
+        text-align: center;
+    }
+
+    main > aside > form > input, select {
+        width: 100%;
+    }
+
+    .headline {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .table-wrap {
+        text-align: center;
+        display: inline-block;
+        background-color: #fff;
+        /*padding: 2rem 2rem;*/
+        color: #000;
+        overflow-y: scroll;
+        width: 100%;
+    }
+
+    table {
+        border: 0;
+        width: 100%;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table tr {
+        margin-bottom: 10px;
+        display: block;
+        border-bottom: 2px solid #ddd;
+    }
+
+    table td {
+        display: block;
+        text-align: right;
+        border-bottom: 1px dotted #ccc;
+        border-right: 1px solid transparent;
+    }
+
+    table td:last-child {
+        border-bottom: 0;
+    }
+
+    table td:first-of-type:before {
+        float: none;
+    }
+    table td:before {
+        content: attr(data-label);
+        float: left;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    td:not(:first-of-type) {
+        padding: 4px 4px 4px 4px;
+    }
 }
 
 .burger {

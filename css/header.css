@@ -8,6 +8,10 @@
     padding: 20px 10px 15px;
 }
 
+.header__logo {
+    max-width: 80%;
+}
+
 .header__logo > a {
     display: inline-block;
 }
